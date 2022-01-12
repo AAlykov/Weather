@@ -1,0 +1,36 @@
+1. Подключили
+  implementation 'com.google.android.material:material:1.4.0'	
+https://github.com/material-components/material-components-android/blob/master/docs/getting-started.md
+https://material.io/components/buttons/android#text-button
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
+
+2. Импортировали 4 картинки
+3. Создали стили
+ <style name="MainTextViewStyle">
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <style name="DividerStyle">
+        <item name="backgroundColor">@color/dividerColor</item>
+    </style>
+
+    <style name="AdditionalWeatherInformationStyle" parent="MainTextViewStyle">
+        <item name="android:textSize">14sp</item>
+	<item name="android:includeFontPadding">false</item>
+    </style>
+
+4.  Новый для атрибут 
+android:includeFontPadding="false"
+
+5. Измениили разметку на CoordinatorLayout
+
+6. Размещение в процентом соотнешении app:layout_constraintVertical_bias="0.2"
+
+7. CTRL+ALT+L - выровнять код
+
+8. Если выделить два элемента то можно их соединить цепью 1:44:00
+
+9. Из фигмы обычные картинки экспортируем как SVG
+
+
